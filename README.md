@@ -25,6 +25,11 @@ Algorithm:
 Result:
 This result image often looks very wired and sometimes horrifying. The generated image will have detail that resemble the feature of the style image, but the color is chaotic. 
 
+Original image:
+<img src="results/未命名文件夹/IMG_0001_2.jpeg" height = "250" width = "250">
+Deep dream result: 
+<img src="results/deepdream1.jpg" height = "250" width = "250">
+
 Thought:
 The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
 
