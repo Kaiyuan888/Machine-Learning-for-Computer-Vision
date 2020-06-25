@@ -12,6 +12,13 @@ Convolution neural network is used for the model. The style loss and content los
 
 Result:
 	The result is better when more suitable image is chosen. The result image will kind of look like filling the pattern of the style image into the unclear contour of the other image. 
+	
+Content image:
+<img src="results/未命名文件夹/IMG_1206.jpeg " height = "250" width = "250">
+Style image:
+<img src="results/未命名文件夹/IMG_1291.jpeg " height = "250" width = "250">
+Style transfer result: 
+<img src="results/crazystyle1.png " height = "250" width = "250">
 
 Thought:
 	Although this model is good to create some artistic image, the generated image probably will not truly reflect the style of the style image since the model cannot often properly match the pattern to the correct place. 
