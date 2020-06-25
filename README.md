@@ -25,7 +25,7 @@ Style transfer result:
 Content image:
 <img src="results/未命名文件夹/IMG_1528.jpeg"  width = "250">
 Style image:
-<img src="results/未命名文件夹/IMG_0900.jpeg.jpeg" width = "250">
+<img src="results/未命名文件夹/IMG_0900.jpeg" width = "250">
 
 Style transfer result: 
 <img src="results/crazystyle2.png" width = "250">
