@@ -52,7 +52,7 @@ Style transfer result:
 Content image:
 <img src="results/未命名文件夹/IMG_0791.png"  width = "250">
 Style image:
-<img src="results/未命名文件夹/IMG_0530.png" width = "250">
+<img src="results/未命名文件夹/IMG_0530.png" height = "250">
 
 Style transfer result: 
 <img src="results/crazystyle6.png" width = "250">
@@ -73,6 +73,9 @@ Original image:
 <img src="results/未命名文件夹/IMG_0001_2.jpeg" height = "250" width = "250">
 Deep dream result: 
 <img src="results/deepdream1.jpg" height = "250" width = "250">
+
+Repeatly processed result:
+<img src="results/deepdream.jpg" height = "250" width = "250">
 
 Thought:
 The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
