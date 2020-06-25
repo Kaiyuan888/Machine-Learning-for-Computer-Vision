@@ -50,7 +50,7 @@ Style transfer result:
 
 
 Content image:
-<img src="results/未命名文件夹/IMG_0971.jpeg"  width = "250">
+<img src="results/未命名文件夹/IMG_0791.jpeg"  width = "250">
 Style image:
 <img src="results/未命名文件夹/IMG_0530.png" width = "250">
 
