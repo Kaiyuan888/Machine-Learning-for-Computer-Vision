@@ -19,7 +19,16 @@ Style image:
 <img src="results/未命名文件夹/IMG_1291.jpeg" width = "250">
 
 Style transfer result: 
-<img src="results/crazystyle1.png " width = "250">
+<img src="results/crazystyle1.png" width = "250">
+
+
+Content image:
+<img src="results/未命名文件夹/IMG_1528.jpeg"  width = "250">
+Style image:
+<img src="results/未命名文件夹/IMG_0900.jpeg.jpeg" width = "250">
+
+Style transfer result: 
+<img src="results/crazystyle2.png" width = "250">
 
 Thought:
 	Although this model is good to create some artistic image, the generated image probably will not truly reflect the style of the style image since the model cannot often properly match the pattern to the correct place. 
