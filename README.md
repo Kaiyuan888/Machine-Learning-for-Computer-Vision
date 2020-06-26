@@ -94,7 +94,7 @@ Original image not resized:
 Orignal image after resized:
 <img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">
 
-Result:
+Result after trained for a short time:
 
 <img src="results/Unknown-3.png" width = "600">
 
