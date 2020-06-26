@@ -8,7 +8,7 @@ Style transfer net:
 	The style transfer model is trained to transfer pattern of a style image to another image. 
 
 Algorithm:
-Convolution neural network is used for the model. The style loss and content loss are measured by loss function. The loss function can be VGG, MSE. The basic idea that the model can extract image style from the style image match it on to the contour of the other image. 
+	Convolution neural network is used for the model. The style loss and content loss are measured by loss function. The loss function can be VGG, MSE. The basic idea that the model can extract image style from the style image match it on to the contour of the other image. 
 
 Result:
 	The result is better when more suitable image is chosen. The result image will kind of look like filling the pattern of the style image into the unclear contour of the other image. 
@@ -64,7 +64,7 @@ Deep dream net:
 	The deep dream net makes the image look very wired by make some pattern in the image look like pattern of something else.
 
 Algorithm:
-		The algorithm is slightly similar to the style transfer. The convolution layers are used in the model. The basic idea is to make the detail in the original image that looks like feature in the style image more like the feature of the style image. 
+	The algorithm is slightly similar to the style transfer. The convolution layers are used in the model. The basic idea is to make the detail in the original image that looks like feature in the style image more like the feature of the style image. 
 
 Result:
 This result image often looks very wired and sometimes horrifying. The generated image will have detail that resemble the feature of the style image, but the color is chaotic. 
@@ -88,3 +88,11 @@ The model consists Gan and residual block. discriminator of the Gan is trained f
 
 Result: 
 The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated. Although it cannot recover full lost detail in some cases, the result is good enough.
+
+Yolonet:
+	This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
+Costum data Result after trained for a short time:
+	<img src="results/Unknown.jpg" width = "250">
+	<img src="results/Unknown-2.jpg" width = "250">
+		
+Thought: The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
