@@ -78,16 +78,24 @@ Repeatly processed result:
 <img src="results/deepdream.jpg" height = "250" width = "250">
 
 Thought:
-The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
+	The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
 
 Super resolution:
-The model can make resize the image and recover some detail.
+	The model can make resize the image and recover some detail.
 
 Algorithm:
-The model consists Gan and residual block. discriminator of the Gan is trained first to check whether the generated image is real enough. 
+	The model consists Gan and residual block. discriminator of the Gan is trained first to check whether the generated image is real enough. 
 
 Result: 
-The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated. Although it cannot recover full lost detail in some cases, the result is good enough.
+	The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated and the color might changed slightly. Although it cannot recover full lost detail in some cases, the result is good enough.
+	
+Original image not resized:
+<img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">
+Orignal image resized:
+<img src="results/未命名文件夹/IMG_20160724_1034232.jpeg" width = "250">
+
+Result
+<img src="results/Unknown-3.png" width = "250">
 
 Yolonet:
 	This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
@@ -95,4 +103,5 @@ Costum data Result after trained for a short time:
 	<img src="results/Unknown.png" width = "250">
 	<img src="results/Unknown-2.png" width = "250">
 		
-Thought: The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
+Thought: 
+	The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
