@@ -96,7 +96,7 @@ Orignal image after resized:
 
 Result:
 
-<img src="results/Unknown-3.png" width = "750">
+<img src="results/Unknown-3.png" width = "500">
 
 Yolonet:
 	This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
