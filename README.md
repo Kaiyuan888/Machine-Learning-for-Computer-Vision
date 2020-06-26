@@ -91,10 +91,11 @@ Result:
 	
 Original image not resized:
 <img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">
-Orignal image resized:
+Orignal image after resized:
 <img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">
 
-Result
+Result:
+
 <img src="results/Unknown-3.png" width = "750">
 
 Yolonet:
