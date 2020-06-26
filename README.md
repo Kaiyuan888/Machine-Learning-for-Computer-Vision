@@ -92,7 +92,7 @@ The generated image is almost indistinguishable to people who has few experience
 Yolonet:
 	This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
 Costum data Result after trained for a short time:
-	<img src="results/Unknown.jpg" width = "250">
-	<img src="results/Unknown-2.jpg" width = "250">
+	<img src="results/Unknown.png" width = "250">
+	<img src="results/Unknown-2.png" width = "250">
 		
 Thought: The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
