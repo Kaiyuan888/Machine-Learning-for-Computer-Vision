@@ -12,70 +12,13 @@ Algorithm:
 
 Result:
 	The result is better when more suitable image is chosen. The result image will kind of look like filling the pattern of the style image into the unclear contour of the other image. 
-	
-Content image
-
-<img src="results/未命名文件夹/IMG_1206.jpeg"  width = "250">
-
-Style image
-
-<img src="results/未命名文件夹/IMG_1291.jpeg" width = "250">
-
-Style transfer result
-
-<img src="results/crazystyle1.png" width = "250">
-
-
-Content image
-
-<img src="results/未命名文件夹/IMG_1528.jpeg"  width = "250">
-
-Style image:
-
-<img src="results/未命名文件夹/IMG_0900.jpeg" width = "250">
-
-Style transfer result: 
-
-<img src="results/crazystyle2.png" width = "250">
-
-
-Content image:
-
-<img src="results/未命名文件夹/IMG_0900.jpeg"  width = "250">
-
-Style image:
-
-<img src="results/未命名文件夹/IMG_1430.jpeg" width = "250">
-
-Style transfer result: 
-
-<img src="results/crazystyle3.png" width = "250">
-
-
-Content image:
-
-<img src="results/未命名文件夹/IMG_0900.jpeg"  width = "250">
-
-Style image:
-
-<img src="results/未命名文件夹/IMG_1206.jpeg" width = "250">
-
-Style transfer result: 
-
-<img src="results/crazystyle4.png" width = "250">
-
-
-Content image:
-
-<img src="results/未命名文件夹/IMG_0791.png"  width = "250">
-
-Style image:
-
-<img src="results/未命名文件夹/IMG_0530.png" height = "250">
-
-Style transfer result: 
-
-<img src="results/crazystyle6.png" width = "250">
+Content image | Style image | Style transfer result
+------------ | ------------- | -------------
+<img src="results/未命名文件夹/IMG_1206.jpeg"  width = "250"> | <img src="results/未命名文件夹/IMG_1291.jpeg" width = "250"> | <img src="results/crazystyle1.png" width = "250">
+<img src="results/未命名文件夹/IMG_1528.jpeg"  width = "250"> |<img src="results/未命名文件夹/IMG_0900.jpeg" width = "250">|<img src="results/crazystyle2.png" width = "250">
+<img src="results/未命名文件夹/IMG_0900.jpeg"  width = "250"> |<img src="results/未命名文件夹/IMG_1430.jpeg" width = "250">|<img src="results/crazystyle3.png" width = "250">
+<img src="results/未命名文件夹/IMG_0900.jpeg"  width = "250">|<img src="results/未命名文件夹/IMG_1206.jpeg" width = "250">|<img src="results/crazystyle4.png" width = "250">
+<img src="results/未命名文件夹/IMG_0791.png"  width = "250">|<img src="results/未命名文件夹/IMG_0530.png" height = "250">|<img src="results/crazystyle6.png" width = "250">
 
 Thought:
 	Although this model is good to create some artistic image, the generated image probably will not truly reflect the style of the style image since the model cannot often properly match the pattern to the correct place. 
@@ -89,17 +32,9 @@ Algorithm:
 Result:
 This result image often looks very wired and sometimes horrifying. The generated image will have detail that resemble the feature of the style image, but the color is chaotic. 
 
-Original image:
-
-<img src="results/未命名文件夹/IMG_0001_2.jpeg" height = "250" width = "250">
-
-Deep dream result: 
-
-<img src="results/deepdream1.jpg" height = "250" width = "250">
-
-Repeatly processed result:
-
-<img src="results/deepdream.jpg" height = "250" width = "250">
+Content image | Deep dream result | Repeatly processed result
+------------ | ------------- | -------------
+<img src="results/未命名文件夹/IMG_0001_2.jpeg" height = "250" width = "250">|<img src="results/deepdream1.jpg" height = "250" width = "250">|<img src="results/deepdream.jpg" height = "250" width = "250">
 
 Thought:
 	The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
@@ -112,26 +47,18 @@ Algorithm:
 
 Result: 
 	The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated and the color might changed slightly. Although it cannot recover full lost detail in some cases, the result is good enough.
-	
-Original image not resized:
 
-<img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">
-
-Orignal image after resized:
-
-<img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">
-
-Result after trained for a short time:
-
-<img src="results/Unknown-3.png" width = "600">
+Original image | Orignal image(downscale) | Result
+------------ | ------------- | -------------
+<img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">|<img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">|<img src="results/Unknown-3.png" width = "600">
 
 Yolonet:
 	This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
 Costum data Result after trained for a short time:
 
-<img src="results/Unknown.png" width = "250">
+<img src="results/Unknown.png" width = "500">
 	
-<img src="results/Unknown-2.png" width = "250">
+<img src="results/Unknown-2.png" width = "500">
 		
 Thought: 
 	The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
