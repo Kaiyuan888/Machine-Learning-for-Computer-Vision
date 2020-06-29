@@ -2,13 +2,21 @@
 This project experiments various machine learning models on computer vision tasks such as image super resolution, style transferring, and object detection. 
 
 ## Introduction
-The objective of this summary is to briefly explain how some neural network for processing image in some form of artistic ways and image classification and some thought on them 
+Machine learning is now a fast developing research field with vast applications. The objective of this summary is to briefly explain how some neural network for processing image in some form of artistic ways and image classification and some thought on them. The main focus is to apply machine learning methods to computer vision tasks. Here, we experiment with various tasks such as style transferring, image super resolution, and image classification.
 
 ## Style transfer net
-The style transfer model is trained to transfer pattern of a style image to another image. 
+The style transfer model is trained to transfer pattern of a style image to another image. 	
 
 ### Algorithm:
 Convolution neural network is used for the model. The style loss and content loss are measured by loss function. The loss function can be VGG, MSE. The basic idea that the model can extract image style from the style image match it on to the contour of the other image. 
+
+Resize the input image and style images.
+Load vgg16 model
+From the latent layers, we seperate content and style
+Minimize loss:
+-Content loss
+-Style loss
+optimize with the L-BFGS algorithm.
 
 ### Result:
 The result is better when more suitable image is chosen. The result image will kind of look like filling the pattern of the style image into the unclear contour of the other image. 
