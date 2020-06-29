@@ -18,6 +18,8 @@ Minimize loss:
 -Style loss
 optimize with the L-BFGS algorithm.
 
+<img src="results/截屏2020-06-29 下午3.28.01.png" width = "500">
+
 ### Result:
 The result is better when more suitable image is chosen. The result image will kind of look like filling the pattern of the style image into the unclear contour of the other image. 
 Content image | Style image | Style transfer result
