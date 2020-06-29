@@ -10,13 +10,20 @@ The style transfer model is trained to transfer pattern of a style image to anot
 ### Algorithm:
 Convolution neural network is used for the model. The style loss and content loss are measured by loss function. The loss function can be VGG, MSE. The basic idea that the model can extract image style from the style image match it on to the contour of the other image. 
 
-Resize the input image and style images.
-Load vgg16 model
-From the latent layers, we seperate content and style
-Minimize loss:
--Content loss
--Style loss
-optimize with the L-BFGS algorithm.
+Resize the input image and style images. 
+
+Load vgg16 model 
+
+From the latent layers, we seperate content and style 
+
+Minimize loss: 
+
+-Content loss 
+
+-Style loss 
+
+optimize with the L-BFGS algorithm. 
+
 
 <img src="results/截屏2020-06-29 下午3.28.01.png" width = "500">
 
