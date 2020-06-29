@@ -81,3 +81,7 @@ Costum data Result after trained for a short time:
 The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
 
 ### References:
+Johnson, J., Alahi, A., & Fei-Fei, L. (2016, October). Perceptual losses for real-time style transfer and super-resolution. In European conference on computer vision (pp. 694-711). Springer, Cham.
+
+### Code references:
+Style transfer: https://github.com/lengstrom/fast-style-transfer
