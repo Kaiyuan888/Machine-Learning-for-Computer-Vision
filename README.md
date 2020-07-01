@@ -90,10 +90,12 @@ This algorithm detect object image and locate its position with a bounding box. 
 Costum data Result after trained for a short time:
 
 ### Algorithm: 
+The image is diveded by neural network
+Probability of each region and bounding box is predicted
+
 <img src="results/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg" width = "500">
 
 ### Result: 
-
 <img src="results/Unknown.png" width = "500">
 	
 <img src="results/Unknown-2.png" width = "500">
@@ -111,6 +113,8 @@ Lacout, F. (2019, March 21). Deep Dream with tensorflow Keras. Retrieved July 01
 Ledig, C., Theis, L., Huszár, F., Caballero, J., Cunningham, A., Acosta, A., ... & Shi, W. (2017). Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4681-4690). 
 
 Redmon, J., Divvala, S., Girshick, R., &amp; Farhadi, A. (n.d.). You Only Look Once: Uniﬁed, Real-Time Object Detection. Retrieved July 1, 2020, from https://pjreddie.com/media/files/papers/yolo.pdf
+
+Redmon, Joseph, and Ali Farhadi. “YOLOv3: An Incremental Improvement.” YOLO: Real-Time Object Detection, ArXiv, 2018, pjreddie.com/darknet/yolo/.
 
 ### Code references:
 Style transfer: https://github.com/lengstrom/fast-style-transfer 
