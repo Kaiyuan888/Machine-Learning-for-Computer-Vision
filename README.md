@@ -99,9 +99,9 @@ The result is quite good for detecting those objects that is hardly distinguish 
 ### References:
 Johnson, J., Alahi, A., & Fei-Fei, L. (2016, October). Perceptual losses for real-time style transfer and super-resolution. In European conference on computer vision (pp. 694-711). Springer, Cham.
 
+Ledig, C., Theis, L., Huszár, F., Caballero, J., Cunningham, A., Acosta, A., ... & Shi, W. (2017). Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4681-4690). 
 
-
-Ledig, C., Theis, L., Huszár, F., Caballero, J., Cunningham, A., Acosta, A., ... & Shi, W. (2017). Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4681-4690).
+Redmon, J., Divvala, S., Girshick, R., &amp; Farhadi, A. (n.d.). You Only Look Once: Uniﬁed, Real-Time Object Detection. Retrieved July 1, 2020, from https://pjreddie.com/media/files/papers/yolo.pdf
 
 ### Code references:
 Style transfer: https://github.com/lengstrom/fast-style-transfer 
