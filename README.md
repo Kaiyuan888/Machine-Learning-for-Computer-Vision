@@ -49,10 +49,11 @@ The algorithm is slightly similar to the style transfer. The convolution layers 
 ### Result:
 This result image often looks very wired and sometimes horrifying. The generated image will have detail that resemble the feature of the style image, but the color is chaotic. 
 
-Content image | Deep dream result | Repeatly processed result
+Content image | Deep dream result | Repeatly zoom and processed result
 ------------ | ------------- | -------------
 <img src="results/未命名文件夹/IMG_0001_2.jpeg" height = "250" width = "250">|<img src="results/deepdream1.jpg" height = "250" width = "250">|<img src="results/deepdream.jpg" height = "250" width = "250">
 <img src="results/未命名文件夹/IMG_1528.jpeg" height = "250" width = "250">|<img src="results/Unknown-11.jpg" height = "250" width = "250">|<img src="results/Unknown-12.jpg" height = "250" width = "250">
+<img src="results/IMG_2513.jpg" height = "250" width = "250">|<img src="results/Unknown-31.jpg" height = "250" width = "250">|<img src="results/Unknown-32.jpg" height = "250" width = "250">
 
 ### Thought:
 The algorithm might be able to generate something more interesting than the weird image by slightly altering the model.
