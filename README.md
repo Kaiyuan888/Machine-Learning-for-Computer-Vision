@@ -87,6 +87,11 @@ Original image | Orignal image(downscale) | LR | SR(PRE) | SR(GAN)
 This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
 Costum data Result after trained for a short time:
 
+### Algorithm: 
+<img src="results/results/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg" width = "500">
+
+### Result: 
+
 <img src="results/Unknown.png" width = "500">
 	
 <img src="results/Unknown-2.png" width = "500">
