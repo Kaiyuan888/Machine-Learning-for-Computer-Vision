@@ -46,6 +46,8 @@ The deep dream net makes the image look very wired by make some pattern in the i
 ### Algorithm:
 The algorithm is slightly similar to the style transfer. The convolution layers are used in the model. The basic idea is to make the detail in the original image that looks like feature in the style image more like the feature of the style image. 
 
+<img src="results/inception.png" width = "500">
+
 ### Result:
 This result image often looks very wired and sometimes horrifying. The generated image will have detail that resemble the feature of the style image, but the color is chaotic. 
 
@@ -103,6 +105,8 @@ The result is quite good for detecting those objects that is hardly distinguish 
 
 ### References:
 Johnson, J., Alahi, A., & Fei-Fei, L. (2016, October). Perceptual losses for real-time style transfer and super-resolution. In European conference on computer vision (pp. 694-711). Springer, Cham.
+
+Lacout, F. (2019, March 21). Deep Dream with tensorflow Keras. Retrieved July 01, 2020, from https://www.kaggle.com/flacout/deep-dream-with-tensorflow-keras
 
 Ledig, C., Theis, L., Huszár, F., Caballero, J., Cunningham, A., Acosta, A., ... & Shi, W. (2017). Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4681-4690). 
 
