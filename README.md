@@ -65,6 +65,13 @@ The model can make resize the image and recover some detail.
 ### Algorithm:
 The model consists Gan and residual block. discriminator of the Gan is trained first to check whether the generated image is real enough. 
 
+Downscale High resolution image to get training data
+
+Upsample the low resolution using generator
+
+The descrimator check the result and give the loss to train the generator
+
+
 <img src="results/截屏2020-07-01 下午2.39.37.png" width = "500">
 
 ### Result: 
