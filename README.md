@@ -81,6 +81,8 @@ Costum data Result after trained for a short time:
 <img src="results/Unknown.png" width = "500">
 	
 <img src="results/Unknown-2.png" width = "500">
+
+<img src="results/Unknown-75.png" width = "500">
 		
 ### Thought: 
 The result is quite good for detecting those objects that is hardly distinguish from background after trained for a short time. 
