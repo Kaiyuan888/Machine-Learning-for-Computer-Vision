@@ -91,6 +91,7 @@ Costum data Result after trained for a short time:
 
 ### Algorithm: 
 The image is diveded by neural network 
+
 Probability of each region and bounding box is predicted
 
 <img src="results/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg" width = "500">
