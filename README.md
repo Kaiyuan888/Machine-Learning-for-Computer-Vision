@@ -88,7 +88,7 @@ This algorithm detect object image and locate its position with a bounding box. 
 Costum data Result after trained for a short time:
 
 ### Algorithm: 
-<img src="results/results/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg" width = "500">
+<img src="results/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg" width = "500">
 
 ### Result: 
 
