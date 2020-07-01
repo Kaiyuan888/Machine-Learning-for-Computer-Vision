@@ -71,7 +71,6 @@ The generated image is almost indistinguishable to people who has few experience
 Original image | Orignal image(downscale) | LR | SR(PRE) | SR(GAN)
 ------------ | ------------- | ------------- | ------------- | -------------
 <img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">|<img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">|<img src="results/Unknown-3_副本.png" width = "250">|<img src="results/Unknown-3_副本2.png" width = "250">|<img src="results/Unknown-3_副本3.png" width = "250">
-
 <img src="results/未命名文件夹/IMG_1403.jpeg" width = "250">|<img src="results/Webp.net-resizeimage.jpg" width = "250">|<img src="results/Unknown-54_副本.png" width = "250">|<img src="results/Unknown-54_副本2.png" width = "250">|<img src="results/Unknown-54_副本3.png" width = "250">
 
 ## Yolonet:
