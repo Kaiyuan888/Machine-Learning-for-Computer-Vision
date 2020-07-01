@@ -68,9 +68,9 @@ The model consists Gan and residual block. discriminator of the Gan is trained f
 ### Result: 
 The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated and the color might changed slightly. Although it cannot recover full lost detail in some cases, the result is good enough.
 
-Original image | Orignal image(downscale) | Result
+Original image | Orignal image(downscale) | LR | SR(PRE) | SR(GAN)
 ------------ | ------------- | -------------
-<img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">|<img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">|<img src="results/Unknown-3.png" width = "600">
+<img src="results/未命名文件夹/IMG_20160724_103423.jpeg" width = "250">|<img src="results/未命名文件夹/IMG_20160724_1034232.jpg" width = "250">|<img src="results/Unknown-3_副本.png" width = "600">|<results/Unknown-3_副本2.png" width = "600">|<img src="results/Unknown-3_副本3.png" width = "600">
 
 ## Yolonet:
 This algorithm detect object image and locate its position with a bounding box. It is trained with data with proper labels.
