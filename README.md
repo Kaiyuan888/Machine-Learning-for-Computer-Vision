@@ -65,6 +65,8 @@ The model can make resize the image and recover some detail.
 ### Algorithm:
 The model consists Gan and residual block. discriminator of the Gan is trained first to check whether the generated image is real enough. 
 
+<img src="results/截屏2020-07-01 下午2.39.37.png" width = "250">
+
 ### Result: 
 The generated image is almost indistinguishable to people who has few experiences in art. Blurry edges can often be wrongly generated and the color might changed slightly. Although it cannot recover full lost detail in some cases, the result is good enough.
 
